@@ -10,7 +10,7 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             //lets take a new CSP with a new 2048 bit rsa key pair
-            var csp = new RSACryptoServiceProvider(2048);
+            RSACryptoServiceProvider csp = new RSACryptoServiceProvider(2048);
 
             //how to get the private key
             //var privKey = ConvertRSAKeyToString(csp.ExportParameters(true));
